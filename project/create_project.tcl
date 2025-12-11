@@ -3,7 +3,7 @@
 # ============================================
 
 set proj_name "sdr"
-set proj_dir  [file normalize "./sdr_project_out"]
+set proj_dir  [file normalize "./sdr_ad9364"]
 
 # 1. Create empty project
 create_project $proj_name $proj_dir -part xczu2eg-sfvc784-1-e -force
